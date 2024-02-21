@@ -2,6 +2,9 @@
 
 This is a Streamlit-based application named "Avinashi", designed to assist with educational purposes. The app facilitates various functionalities related to YouTube video transcripts, summarization, translation, and audio conversion.
 
+## Application
+   - [Link](https://app-pqzao449tjctkigptxutud.streamlit.app/)
+   - 
 ## Features
 
 1. **Transcript Extraction**
@@ -39,6 +42,13 @@ This is a Streamlit-based application named "Avinashi", designed to assist with 
 3. For options requiring a YouTube video ID, enter the video ID in the provided text input field.
 
 4. Click the "Process" button to initiate the chosen functionality.
+
+
+https://github.com/Utkarshmishra2k2/StudyApp/assets/114844983/46bf0fb9-8dc5-4fbb-b23a-b5a7ea7bc224
+
+
+
+
 
 ## Acknowledgments
 
