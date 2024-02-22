@@ -1,50 +1,44 @@
-# Avinashi Study App
-
-This is a Streamlit-based application named "Avinashi", designed to assist with educational purposes. The app facilitates various functionalities related to YouTube video transcripts, summarization, translation, and audio conversion.
-
-## Application
-   - [Cloud](https://app-4wb9zefeudq8cgyhpwxxgk.streamlit.app/)
+# Transcript + Translate + Summarize using Streamlit
+This Streamlit-based application is meticulously crafted to serve educational purposes, offering a comprehensive suite of functionalities related to YouTube video transcripts, summarization, translation, and audio conversion.
 
 ## Features
 
 1. **Transcript Extraction**
-   - Given a YouTube video ID, the application extracts the transcript using the YouTube Transcript API. In case of failure, appropriate error messages are displayed.
+   - Utilizes the `YouTube Transcript API` to extract transcripts from YouTube videos via their respective video IDs.
 
 2. **Transcript Enhancement**
-   - The extracted transcript is enhanced using the Hugging Face `transformers` library. This enhancement involves summarization of the transcript.
-
+   - Employs the Hugging Face `transformers` library to enhance extracted transcripts through summarization techniques, providing users with concise and insightful summaries.
+   - 
 3. **Translation**
-   - Translates the transcript into Hindi, Punjabi, and Marathi languages using the Google Translate API.
+   - Seamlessly translates transcripts into Hindi, Punjabi, and Marathi languages using the `Google Translate API`, fostering inclusivity and accessibility for learners of diverse linguistic backgrounds.
 
 4. **Audio Conversion**
-   - Converts the text transcripts into audio files using the `gTTS` library.
+   - Enables conversion of text transcripts into audio files effortlessly, leveraging the `gTTS` library to cater to auditory learners who prefer listening to educational content.
 
 5. **User Interface**
-   - The application interface provides an option menu to select different functionalities:
-     - Tribute
-     - English Notes
-     - Hindi Notes
-     - Punjabi Notes
-     - Marathi Notes
+   Offers an intuitive interface featuring an option menu with a range of functionalities:
+   -English Notes
+   -Hindi Notes
+   -Punjabi Notes
+   -Marathi Notes
+   -Telugu Notes
 
 
 ## Usage
 
-1. Upon running the app, you will be presented with a Streamlit interface.
+1. Upon launching the app, users are greeted with a streamlined Streamlit interface.
 
 2. Use the option menu to select the desired functionality:
    - English Notes: Provides detailed and summarized notes in English.
    - Hindi Notes: Provides translated notes and summaries in Hindi.
-   - Tribute: Displays a tribute with sliding images.
    - Punjabi Notes: Provides translated notes and summaries in Punjabi.
    - Marathi Notes: Provides translated notes and summaries in Marathi.
+   - Telugu Notes: Provides translated notes and summaries in Telugu.
 
 3. For options requiring a YouTube video ID, enter the video ID in the provided text input field.
 
 4. Click the "Process" button to initiate the chosen functionality.
 
-
-https://github.com/Utkarshmishra2k2/StudyApp/assets/114844983/46bf0fb9-8dc5-4fbb-b23a-b5a7ea7bc224
 
 
 
