@@ -23,6 +23,10 @@ This Streamlit-based application is meticulously crafted to serve educational pu
    -Marathi Notes
    -Telugu Notes
 
+## Demo
+
+https://github.com/Utkarshmishra2k2/StudyApp/assets/114844983/f5717896-7276-46d3-bb9a-edc359a7371c
+
 
 ## Usage
 
